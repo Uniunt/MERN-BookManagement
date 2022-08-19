@@ -15,5 +15,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "bookapp-deployed-by-actions" #Must be unique in Heroku
           heroku_email: "uniunt@gmail.com"
-          appdir: "w3_autodeploy_githubaction" # <- This will point to the api folder in your project
-          procfile: "web:node w3_autodeploy_githubaction/app.js"
+          appdir: "MERN-BookManagement" # <- This will point to the api folder in your project
+          procfile: "web:node MERN-BookManagement/app.js"
